@@ -1,0 +1,122 @@
+body, td 
+{
+	font-family: Verdana; 
+	font-size:14px;
+}
+
+a:link,a:visited
+{
+	text-decoration:none;
+	color:#0F74D9;
+}
+
+a:hover
+{
+	color:#000;
+}
+
+div#main
+{
+	margin: 0 auto; 
+	width:700px; 
+	border:2px #0F74D9 solid; 
+	border-radius: 7px; -moz-border-radius: 7px;-webkit-border-radius: 7px;
+}
+
+div.caption
+{
+	background:#0F74D9; 
+	font-size: 21px; 
+	color:#FFFFFF; 
+	line-height:35px;
+}
+
+table.topstats td 
+{
+	font-weight:bold; 
+	text-align:center; 
+	font-size:15px; 
+	border-bottom:2px #0F74D9 solid; 
+	height:55px;
+}
+
+table.topstats a 
+{
+	display:block; line-height:35px;
+}
+
+table.topstats a:hover 
+{
+	background:#0F74D9; 
+	color:#FFFFFF; 
+	border:2px #0F74D9 solid; 
+	border-radius: 7px; -moz-border-radius: 7px;-webkit-border-radius: 7px;
+}
+
+table.statstable
+{
+	border-collapse:collapse;
+}
+
+table.statstable td 
+{
+	font-size:11px;
+}
+
+table.periodsettable
+{
+	border-bottom:2px #0F74D9 solid;
+}
+
+input 
+{ 
+	border:2px #0F74D9 solid; 
+	border-radius: 7px; -moz-border-radius: 7px;-webkit-border-radius: 7px;
+}
+
+b.stat_block
+{
+	border-bottom: 1px dashed black; 
+	line-height:25px;
+}
+
+
+div.geoipdiv
+{
+	position:absolute;
+	margin:21px;
+	padding:5px;
+	border:1px #000 solid;
+	display:none;
+	background:#9FC7E1;
+	border-radius: 12px; -moz-border-radius: 12px;-webkit-border-radius: 12px;
+}
+
+div#geoipwait
+{
+	display:none; 
+	position:fixed; 
+	top:60%; 
+	left:45%; 
+	margin:21px; 
+	padding:5px;
+	border:1px #0F74D9 solid; 
+	background:#FFFFFF;  
+	border-radius: 12px; -moz-border-radius: 12px;-webkit-border-radius: 12px;
+}
+
+div.overflowing
+{
+	margin: 0 auto; 
+	background:#ffffff; 
+	border-top:2px #0F74D9 solid;
+}
+
+div.detailscaption
+{
+	background:#0F74D9; 
+	font-size: 16px; 
+	color:#FFFFFF; 
+	line-height:25px;
+}
+

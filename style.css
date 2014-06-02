@@ -1,0 +1,351 @@
+body
+{
+	background:#FFCC99;
+	font-size:13px;
+	font-family: Tahoma, Ubuntu, Sans-serif;
+	text-shadow:#ddd 1px 1px 1px;
+}
+
+body,td
+{
+	font-size:13px;
+}
+
+div.mainpage a
+{
+	text-decoration:underline;
+}
+
+div.mainpage
+{
+	padding:9px;
+	box-shadow: 0 0 2px black; -moz-box-shadow: 0 0 2px black; -webkit-box-shadow: 0 0 2px black;
+	border-radius:14px; -moz-border-radius:14px;
+	line-height:20px;
+	text-align:justify;
+}
+
+div.mainpage span
+{
+	display:block;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+
+a:link,a:visited
+{
+	color: #2C231A;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#524231;
+	text-decoration:underline;
+}
+
+h2
+{
+	font-size:19px;
+}
+
+hr
+{
+	border: #555 1px solid;
+}
+
+a.topmenu
+{
+	width:180px;
+	height:29px;
+	padding-top:11px;
+	font-size:14px;
+	margin:8px;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+	border:#524231 1px solid;
+	border-radius:14px; -moz-border-radius:14px;
+	text-shadow:none;
+	box-shadow: 0 0 1px black; -moz-box-shadow: 0 0 1px black; -webkit-box-shadow: 0 0 1px black;
+}
+
+a.topmenu:hover
+{
+	background:#C19A74;
+	text-decoration:none;
+	color:#fff;
+	box-shadow: 0 0 5px black; -moz-box-shadow: 0 0 5px black; -webkit-box-shadow: 0 0 5px black;
+}
+
+
+table.maintable
+{
+	width:980px;
+	margin:0 auto;
+}
+
+table.maintable td
+{
+	padding:10px;
+}
+
+
+table.authtable
+{
+	width:190px;
+	border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+}
+
+table.authtable td
+{
+	padding:2px;
+	text-align:center;
+}
+
+table.authtable input
+{
+	font-size:13px;
+	border:#524231 1px solid;
+	border-radius:5px; -moz-border-radius:5px;
+	padding:2px;
+}
+
+table.authtable input.submit
+{
+	padding:5px;
+	background: #fff;
+	cursor:pointer;
+}
+
+div.newsitem
+{
+	border:#B5916D 1px solid;
+	margin:3px;
+	padding:3px;
+}
+
+div.newsitem span
+{
+	font-size:11px;
+	width:100%;
+	background:#E7B98B;
+}
+
+table.newdtable td
+{
+	padding:5px;
+}
+
+table.newdtable input, select
+{
+	font-size:13px;
+	border:#A98765 1px solid;
+	border-radius:5px; -moz-border-radius:5px;
+	padding:1px;
+	background: #fff;
+}
+
+table.newdtable button.submit
+{
+	font-size:15px;
+	border:#524231 1px solid;
+	border-radius:5px; -moz-border-radius:5px;
+	padding:5px;
+	background: #fff;
+	cursor:pointer;
+}
+
+table.newdtable button.submit:hover, table.authtable button.submit:hover
+{
+	box-shadow: 1px 1px 0px 1px #A98765;
+}
+
+table.newdtable
+{
+	margin-bottom:20px;
+	border:1px solid #A98765; 
+	padding:5px;
+	border-radius:5px; -moz-border-radius:5px;
+}
+
+table.profile td
+{
+	padding:4px;
+}
+
+.tdhead
+{
+	padding:8px;
+	background:#A68564;
+	text-shadow:none;
+	color:#fff;
+	border-radius:5px; -moz-border-radius:5px;
+	text-align:center;
+}
+
+.msgbtn:link, .msgbtn:visited, .msgbtn
+{
+	padding:8px;
+	background:#A68564;
+	text-shadow:none;
+	color:#fff;
+	border-radius:5px; -moz-border-radius:5px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+	display:block;
+}
+
+.msgbtn:hover
+{
+	color:#2C231A;
+}
+
+table.msgbox td
+{
+	font-size:12px;
+	padding: 4px;
+}
+
+#writemsgform
+{
+	padding:10px;
+	background:#FFE4CA;
+	position:fixed;
+	left:40%;
+	top:30%;
+	border:1px #A68564 solid;
+	border-radius:5px; -moz-border-radius:5px;
+	box-shadow: 0 0 5px black; -moz-box-shadow: 0 0 5px black; -webkit-box-shadow: 0 0 5px black;
+}
+
+table.friendtable
+{
+	width:600px;
+	margin:0 auto;
+	border:1px #A68564 solid;
+}
+
+span.userinfostr:hover
+{
+	background-color:#FFDCB8;
+	border-radius:5px; -moz-border-radius:5px;
+}
+
+img.useravatar
+{
+	box-shadow: 0 0 5px black; -moz-box-shadow: 0 0 5px black; -webkit-box-shadow: 0 0 5px black;
+}
+
+table.searchuserstable
+{
+	border-collapse:collapse;
+}
+
+table.searchuserstable td
+{
+	padding:5px;
+	border:1px #B29980 solid;
+	background-color:#EDBE8E;
+}
+
+.statstr
+{
+	width:30%;
+	display:block;
+	padding:8px;
+	margin:0px auto;
+	font-size:14px;
+	text-align:center;
+	border:1px #7D644A solid;
+	margin-bottom:5px;
+	line-height:20px;
+}
+
+.hint
+{
+	font-size:10px;
+	color:#424242;
+}
+
+a.clickablelogin:link, a.clickablelogin:visited
+{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+a.clickablelogin:hover
+{
+	text-decoration:underline;
+}
+
+#user_info
+{
+	width:400px;
+	background:#FFFFDB;
+	padding:3px;
+	position:fixed;
+	top:40%;
+	left:40%;
+	border:#C19A74 2px solid;
+	border-radius:5px; -moz-border-radius:5px;
+	box-shadow: 0 0 5px black; -moz-box-shadow: 0 0 5px black; -webkit-box-shadow: 0 0 5px black;
+	z-index:101;
+}
+
+#mymessages
+{
+	width:400px;
+	max-height:600px;
+	overflow:auto;
+	background:#F6C492;
+	padding:3px;
+	position:fixed;
+	top:10%;
+	left:40%;
+	border:#C19A74 2px solid;
+	border-radius:5px; -moz-border-radius:5px;
+	box-shadow: 0 0 5px black; -moz-box-shadow: 0 0 5px black; -webkit-box-shadow: 0 0 5px black;
+	z-index:100;
+}
+
+#user_info td
+{
+	line-height:23px; 
+	font-size:13px; 
+	font-family:Verdana;
+}
+
+.playerinfomes
+{
+	display:block;
+	cursor:pointer;
+	width:32px; 
+	height:32px; 
+	background:url(picture/new-message-icon.png) no-repeat;
+}
+
+.playerinfofrnd
+{
+	display:block;
+	cursor:pointer;
+	width:32px; 
+	height:32px; 
+	background:url(picture/emblem-handshake.png) no-repeat;
+}
+
+#mymessagesbtn
+{
+	cursor:pointer;
+	position:absolute;
+	border:#BB8651 1px dotted;
+}
+
+#mymessagesbtn:hover
+{
+	border:#BB8651 1px solid;
+}

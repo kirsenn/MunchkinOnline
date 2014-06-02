@@ -1,0 +1,58 @@
+.gamememu{
+    overflow:auto;
+    position: absolute;
+    top: 195px;
+    left: 5px;
+    z-index: 1;
+}
+
+#menu_pic{
+    width: 400px;
+    height: auto;
+    overflow:auto;
+    position: absolute;
+    top: 5px;
+    left: 595px;
+    z-index: 1;
+}
+
+#minichat_place{
+    font-size:13px;
+    width: 590px;
+    height: 130px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    overflow:auto;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    z-index: 1;
+}
+
+#minichat_text{
+    background: #FFCC86;
+    width: 885px;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 170px;
+    left: 5px;
+    z-index: 1;
+}
+
+#minichat_com{
+    padding: 1px;
+    width: 100px;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 170px;
+    left: 895px;
+    z-index: 1;
+}
+

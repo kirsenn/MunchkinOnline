@@ -1,0 +1,447 @@
+#button_menu{
+	background: url(picture/back-icon.png) no-repeat;
+	padding: 6px;
+	width: 59px;
+	height: 18px;
+}
+
+#button_help{
+	padding: 6px;
+	width: 16px;
+	height: 18px;
+	font-weight:bold;
+	font-size:17px;
+}
+
+#button_clear{
+	background: url(picture/clear-icon.png) no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+#box_dump{
+	background: url(picture/dump-icon.png) no-repeat;
+    width: 70px;
+    height: 30px;
+}
+
+#box_loot, #box_door{
+    width: 105px;
+    height: 66px;
+    border:#BB9670 1px dotted;
+	border-radius:3px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc);
+    z-index: 1;
+}
+
+#box_door:hover, #box_loot:hover
+{
+	border:#000 1px solid;
+	cursor:pointer;
+}
+
+.idalltable
+{
+	padding:3x;
+	padding-bottom:1px;
+	padding-right:5px;
+	margin-right:5px;
+	overflow:auto;
+	height:420px;
+	border-right:#AF8C69 5px solid;
+	box-shadow: 0px -15px 16px 0px #FFAC59 inset;
+}
+
+.cardplace {
+	z-index:2; 
+	display:block;
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	cursor:pointer;
+}
+
+.cardplacelabel1, .cardplacelabel2
+{
+	position:absolute;
+	top:72px;
+	border:none;
+	color:#777; 
+	z-index:1; 
+	text-align:center; 
+	font-size:18px; 
+	text-shadow: 0px 1px 0px #e5e5ee; 
+	box-shadow:none;
+}
+
+.cardplacelabel1
+{
+	padding-left:10px;
+}
+
+.cardplacelabel2
+{
+	padding-left:35px;
+}
+
+.id_card
+{
+	z-index:2; 
+	width: 130px;
+    height: 190px;
+	cursor:pointer;
+}
+
+.player
+{
+	font-size:9pt;
+	border-radius:6px; -moz-border-radius: 6px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+	padding:5px;
+	margin-bottom:3px;
+	text-shadow:none;
+}
+
+.player:hover
+{
+	box-shadow: -3px -3px 6px 1px #FFAC59 inset;
+}
+
+.hover{
+  box-shadow: 0px 1px 0px 2px #FFAC59;
+  background:#FFAC59;
+}
+
+table.userbuttons td
+{
+	padding:3px;
+}
+
+#mess_pas
+{
+	text-align:center;
+	padding-left:16px;
+	padding-top:7px;
+	width:89px;
+	height:25px;
+	background: url(picture/surrender-icon.png) no-repeat;
+}
+
+#mess_boi
+{
+	text-align:center;
+	padding-left:16px;
+	padding-top:2px;
+	width:89px;
+	height:30px;
+	background: url(picture/sword-icon.png) no-repeat;
+}
+
+#mess_cube
+{
+	text-align:center;
+	padding-left:16px;
+	padding-top:2px;
+	width:89px;
+	height:30px;
+	background: url(picture/dice.png) no-repeat;
+}
+
+#mess_end
+{
+	text-align:center;
+	padding-left:16px;
+	padding-top:2px;
+	width:89px;
+	height:30px;
+	background: url(picture/flag-finish-icon.png) no-repeat;
+}
+
+#mess_com
+{
+	background: url(picture/mail-send-icon.png) no-repeat;
+	margin-left:2px;
+	padding:1px;
+	padding-left:15px;
+	width:75px;
+	height:20px;
+}
+
+#mess_history
+{
+	margin:2px;
+	background-color:#fff;
+	background: url(picture/history-icon.png) no-repeat;
+	width:32px;
+	height:32px;
+}
+
+#next_step
+{
+	margin:2px;
+	text-align:center;
+	padding-left:14px;
+	padding-top:2px;
+	width:76px;
+	height:30px;
+	background: url(picture/next-sail.png) no-repeat;
+}
+
+#close_table
+{
+	padding-left:4px;
+	margin:2px;
+	width:86px;
+	height:32px;
+}
+
+#close_table .close_table_op
+{
+	padding-left:18px;
+	padding-top:3px;
+	text-align:center;
+	background: url(picture/Lock-Unlock-icon.png) no-repeat;
+}
+
+#close_table .close_table_cl
+{
+	padding-left:18px;
+	padding-top:3px;
+	text-align:center;
+	background: url(picture/Lock-Lock-icon.png) no-repeat;
+}
+
+#mess_text{
+    background: #FFCC86;
+    width: 100%;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	background:#FFD3A0;
+}
+
+#mess_place, #mess_place1{
+    height: 100px;
+	text-shadow:none;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    overflow:auto;
+	padding:4px;
+	background:#FFD3A0;
+}
+
+.yourmess
+{
+	font-weight:bold; 
+	color:#0C6800; 
+	text-shadow:none;
+}
+
+.nick, .level, .bonus, .curse, .u_gold, .race, .u_class, .helper_name
+{
+	text-shadow:none;
+}
+
+.nick:hover, .level:hover, .bonus:hover, .curse:hover, .u_gold:hover, .race:hover, .u_class:hover
+{
+	cursor:pointer;
+	background:#fff;
+}
+
+.pencil, .kick, .change_creator, .help_user_fight, .infouser
+{
+	display:block;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	border:#BB8651 1px dotted;
+}
+
+.pencil:hover, .kick:hover, .change_creator:hover, .help_user_fight:hover, .infouser:hover
+{
+	border:#000 1px solid;
+}
+
+#mess_pas, #mess_boi, #mess_cube, #mess_whom, #mess_end, #button_menu, #button_help, #button_clear, #box_dump, #mess_com, #mess_history, #next_step, #close_table
+{
+	font-size:8pt;
+	display:block;
+	border:#BB8651 1px dotted;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+	text-align:center;
+	text-shadow:none;
+}
+
+#mess_pas:hover, #mess_boi:hover, #mess_cube:hover, #mess_whom:hover, 
+#mess_end:hover, #button_menu:hover, #button_help:hover, #button_clear:hover, 
+#box_dump:hover, #mess_com:hover, #mess_history:hover, #next_step:hover, #close_table:hover,
+#u_level_plus:hover, #u_level_minus:hover
+{
+	border:#000 1px solid;
+	cursor:pointer;
+}
+
+
+
+#blok_info_level{
+	font-size:14px;
+    text-decoration: none;
+    padding: 1px;
+}
+
+#u_level_plus, #u_level_minus
+{
+	width: 32px;
+    height: 32px;
+    border:#BB8651 1px dotted;
+	cursor:pointer;
+	display:block;
+}
+
+#u_level_minus{
+	background: url(picture/Minus-Green-Button-icon.png) no-repeat;
+}
+
+#u_level_plus{
+	background: url(picture/Add-Green-Button-icon.png) no-repeat;
+}
+
+#vote_pro{
+    padding: 1px;
+    border: 1px solid  red;
+    background: #FFCC99;
+}
+
+#vote_con{
+    padding: 1px;
+    border: 1px solid  red;
+    background: #FFCC99;
+}
+
+
+.activeitem, .inactiveitem, .curseplace
+{
+	width: 130px;
+	height: 190px;
+	border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+}
+
+.activeitem img, .inactiveitem img, .curseplace img, .u_class_place img, .u_race_place img, .id_card_enemy
+{
+	width: 130px;
+	height: 190px;
+	cursor:pointer;
+}
+
+#act_items_label, #inact_items_label
+{
+	text-align:left;
+	width:200px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+#u_bonus_count{
+    padding: 1px;
+    height: 20px;
+}
+
+#u_bonus_minus, #u_bonus_plus{
+	width: 32px;
+	height: 32px;
+	border:#BB8651 1px dotted;
+	cursor:pointer;
+	display:block;
+}
+
+#u_bonus_minus:hover, #u_bonus_plus:hover
+{
+	border:#555 1px solid;
+}
+
+#u_bonus_minus
+{
+	background: url(picture/Minus-Green-Button-icon.png) no-repeat;
+}
+
+#u_bonus_plus{
+	background: url(picture/Add-Green-Button-icon.png) no-repeat;
+}
+
+
+#curselabel{
+	text-align:left;
+	font-weight:bold;
+	font-size:18px;
+}
+
+
+/*Класс*/
+#id_table30{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#id_table31{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 140px;
+}
+
+#id_table32{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 275px;
+}
+/*Раса*/
+#id_table40{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#id_table41{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 140px;
+}
+
+#id_table42{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 275px;
+}

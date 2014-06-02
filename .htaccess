@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule    ^profile.htm$ index.php?profile    [NC,L]    # Handle requests for "pet-care"

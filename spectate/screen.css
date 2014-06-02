@@ -1,0 +1,749 @@
+.card_batch{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} 
+
+#id_card3{
+    width: 100%;
+    height: auto;
+    position: absolute;
+} 
+
+.id_card{
+    width: 100%;
+	height: 100%;
+    cursor: pointer;
+    position: absolute;
+	z-index:10;
+}
+
+.id_card_bonus{
+    width: 100%;
+	height: 100%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 9;
+}
+
+.id_card_class{
+    width: 100%;
+	height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.id_card_enemy{
+    width: 100%;
+	height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+#mess_place{
+    width: 750px;
+    height: 150px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    overflow:auto;
+    position: absolute;
+    top: 425px;
+    left: 5px;
+    z-index: 1;
+}
+
+.hover{
+  box-shadow: 0px 1px 0px 2px #FFAC59;
+  background:#FFAC59;
+}
+
+#id_all_table2{
+    width: 750px;
+    height: 420px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 1px;
+    left: 5px;
+}
+/*»гровой стол*/
+#id_table10, .id_table10 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+#id_table11, .id_table11 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+
+#id_table12, .id_table12 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 275px;
+}
+
+#id_table13, .id_table13 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 410px;
+}
+
+#id_table14, .id_table14 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 545px;
+}
+
+#id_table15, .id_table15 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 210px;
+    left: 5px;
+}
+
+#id_table16, .id_table16 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 210px;
+    left: 140px;
+}
+
+#id_table17, .id_table17 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 210px;
+    left: 275px;
+}
+
+#id_table18, .id_table18 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 210px;
+    left: 410px;
+}
+
+#id_table19, .id_table19 {
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+    position: absolute;
+    top: 210px;
+    left: 545px;
+}
+
+/* ласс*/
+#id_table30{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#id_table31{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 140px;
+}
+
+#id_table32{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 275px;
+}
+/*–аса*/
+#id_table40{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#id_table41{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 140px;
+}
+
+#id_table42{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 275px;
+}
+/*Ўмотки сначало идут неактивные потом активные*/
+/*Ўмотки неактивные*/
+#id_table60{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 5px;
+}
+
+#id_table61{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 140px;
+}
+
+#id_table62{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 275px;
+}
+
+#id_table63{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 410px;
+}
+
+#id_table64{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 545px;
+}
+
+#id_table65{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 680px;
+}
+
+#id_table66{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 815px;
+}
+
+#id_table67{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 950px;
+}
+
+#id_table68{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 1085px;
+}
+
+#id_table69{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 1220px;
+}
+
+/*Ўмотки активные*/
+#id_table50{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 5px;
+}
+
+#id_table51{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 140px;
+}
+
+#id_table52{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 275px;
+}
+
+#id_table53{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 410px;
+}
+
+#id_table54{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 545px;
+}
+
+#id_table55{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 680px;
+}
+
+#id_table56{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 815px;
+}
+
+#id_table57{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 950px;
+}
+
+#id_table58{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+   left: 1085px;
+}
+
+#id_table59{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 265px;
+    left: 1220px;
+}
+
+/*ѕ–ќ Ћя“»я*/
+#id_table70{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 5px;
+}
+
+#id_table71{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 140px;
+}
+
+#id_table72{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 275px;
+}
+
+#id_table73{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 410px;
+}
+
+#id_table74{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 545px;
+}
+
+#id_table75{
+    width: 130px;
+    height: 190px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 35px;
+    left: 680px;
+}
+
+#id_str1{
+    width: 600px;
+    height: 25px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 1px;
+    left: 130px;
+
+}
+
+#id_str2{
+    width: 600px;
+    height: 25px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 235px;
+    left: 130px;
+}
+
+#id_str3{
+    width: 650px;
+    height: 25px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 90px;
+}
+
+#u_bonus_count{
+    padding: 1px;
+    width: 40px;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 1px;
+    left: 5px;
+}
+
+#u_bonus_minus{
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 1px;
+    left: 50px;
+}
+
+#u_bonus_plus{
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 1px;
+    left: 75px;
+}
+
+
+#blok_info_level{
+	font-size:14px;
+    text-decoration: none;
+    padding: 1px;
+    width: 300px;
+    height: 50px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+
+#u_level_minus{
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 7px;
+    left: 310px;
+}
+
+#u_level_plus{
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+    top: 33px;
+    left: 310px;
+}
+
+
+#player1, #player2, #player3, #player4, #player5, #player6
+{
+	font-size:12px;
+	font-family: Verdana, Tahoma, Ubuntu, Sans-serif;
+	text-shadow:#ddd 1px 1px 1px;
+    border:green 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	behavior: url(css3pie.htc); /* учим IE border-radius */
+    position: absolute;
+	width: 195px;
+    height: 85px;
+	padding:5px;
+	left: 765px;
+}
+
+#player1{
+    top: 2px;
+}
+
+#player2{
+    top: 105px;
+}
+
+#player3{
+    top: 210px;
+}
+
+#player4{
+    top: 315px;
+}
+
+#player5{
+    top: 420px;
+}
+
+#player6{
+    top: 525px;
+}
+
+#vote_pro{
+    padding: 1px;
+    border: 1px solid  red;
+    background: #FFCC99;
+}
+
+#vote_con{
+    padding: 1px;
+    border: 1px solid  red;
+    background: #FFCC99;
+}
+
+#mess_pas, #mess_boi, #mess_cube, #mess_whom, #mess_end, #button_menu:link, #button_help, #button_clear, #box_dump
+{
+
+	text-align:center;
+	font-weight: bold;
+	text-shadow:none;
+	box-shadow: -2px -2px 5px 1px #C48A50 inset;
+	color:#18130E;
+}
+
+#mess_pas:hover, #mess_boi:hover, #mess_cube:hover, #mess_whom:hover, #mess_end:hover, #button_menu:hover, #button_help:hover, #button_clear:hover, #box_dump:hover
+{
+	background:#FFCC99;
+	cursor:pointer;
+	color:#000000;
+	box-shadow: -2px -2px 5px 1px #FFB468 inset;
+}
+
+.spectatebox
+{
+	position:absolute;
+	width:500px;
+	top:600px;
+	left:5px;
+	text-align:center;
+	border: 1px solid #555555;
+	border-radius:5px;
+}
+
+.spectateexit
+{
+	font-weight:bold;
+	left:695px;
+	position:absolute;
+	padding:7px;
+	border: 1px solid #555555;
+	border-radius:5px;
+	cursor:pointer;
+	z-index:10;
+	box-shadow: -2px -2px 5px 1px #C48A50 inset;
+	color:#ff0000;
+}
+
+.spectateexit:hover
+{
+	background:#FFCC99;
+	cursor:pointer;
+	color:#000000;
+	box-shadow: -2px -2px 5px 1px #FFB468 inset;
+}

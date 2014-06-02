@@ -1,0 +1,99 @@
+#time_now
+{
+	position:absolute;
+    font-size:18px;
+	color:#47301A;
+	text-shadow: 3px 3px 3px #ffffff;
+	margin-top:-77px;
+	margin-left:865px;
+}
+
+#user_online{
+    position:absolute;
+    font-size:18px;
+	color:#47301A;
+	text-shadow: 3px 3px 3px #ffffff;
+	margin-top:-31px;
+	margin-left:880px;
+}
+
+.gamememu{
+    overflow:auto;
+    z-index: 1;
+}
+
+#menu_pic{
+    
+}
+
+#minichat_place{
+	margin:0 auto;
+	padding:5px;
+    font-size:13px;
+    width: 1000px;
+    height: 150px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+	overflow:auto;
+	text-align:left !important;
+}
+
+#minichat_text{
+	margin-top:3px;
+	padding:0px;
+	font-size:13px;
+	margin-left:25px;
+	margin-right:5px;
+    background: #FFCC86;
+    border:#555 1px solid;
+	width:790px;
+	height: 20px !important;
+	border-radius:5px; -moz-border-radius: 5px;
+}
+
+#minichat_com{
+	font-size:13px;
+	font-weight:bold;
+	margin-top:3px;
+	padding-top:1px;
+	text-align:center;
+    height: 19px !important;
+	width:95px;
+    border:#555 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+}
+
+.spectatemode img, .destroy_table img, .start_game img, .leave_table img, .return_game img, .destroy_table_whole img, .join_game img
+{
+	cursor:pointer;
+	width:32px;
+	height:32px;
+	border:#FFCC99 1px solid;
+	border-radius:5px; -moz-border-radius: 5px;
+}
+
+.spectatemode img:hover, .destroy_table img:hover, .start_game img:hover, .leave_table img:hover, .return_game img:hover, .destroy_table_whole img:hover, .join_game img:hover
+{
+	border:#555 1px solid;
+}
+
+.helplink
+{
+	cursor:pointer;
+	display:block;
+	width:150px;
+	text-align:center;
+}
+
+.helplink b
+{
+	font-size:16px;
+	font-weight:bold;
+	color: #2C231A;
+}
+
+.helplink b:hover
+{
+	color:#524231;
+	text-decoration:underline;
+}
